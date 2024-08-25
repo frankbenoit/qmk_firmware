@@ -33,7 +33,8 @@ Those keys that are far away from the right pinky - stay unused.
 ![image Extend Layer](L5.png)
 
 Cursor, Page up/down, tab, esc, bspc, ins, del, caps .. all an the right hand.
-The left hand, while pressing the layer activation, can still press modifiers. Note the key left of the space bar is now also the windows key, to be more easy to press while the "Extend" key is held.
+The left hand, while pressing the layer activation, can still press modifiers.
+Note the key left of the space bar is now also the windows key, to be more easy to press while the "Extend" key is held.
 E.g. Windows+Arrow to move a window.
 
 The usual undo, cut, copy, paste are at their original QWERTY positions. Instead of Ctrl-X, now you press Ext-X.
@@ -46,7 +47,8 @@ The Function row does now have the upper half of function keys `F13` .. `F24` an
 ![image Layer Number](L6.png)
 
 
-The left alt on bottom row in now WIN key, so it can be easier pressed with the thumb. E.g. Windows+Number to open a taskbar application.
+Like in the "Extend" layer, alse in the number layer the key left of the space bar is now also the windows key, to be more easy to press while the "Number" key is held.
+E.g. Windows+Number to open a taskbar application.
 
 ## Mouse layer
 
@@ -56,13 +58,26 @@ Move the mouse with the keyboard.
 
 ## Special Shortcuts
 
-Printscreen: Fn + Prntscreen. Fn to avoid accidental interruption when hitting print screen during backspace press.
+### Print screen
 
-Microphone mute/unmute: Fn + Del
+Fn + Printscreen. 
+Instead of using the key directly, it enforces to have the Fn key held.
+This is to avoid accidental interruption when hitting print screen during backspace press.
 
-Alt-Tab, Win-Tab, Ctrl-Tab: They are still working, although the Tab key normally activates the number layer
+### Microphone mute/unmute
+
+Use Fn + Del
+
+### Windows Lock
 
 Ext-Mse: Windows Lock
+
+### Tab switching
+
+Alt-Tab, Win-Tab, Ctrl-Tab: They are still working, although the Tab key normally activates the number layer
+When one of the Alt/Win/Ctrl is pressed, the Tab key is not activating the number layer.
+
+### Hold Extend Layer
 
 Ext-Esc: Extend layer permanent active
 

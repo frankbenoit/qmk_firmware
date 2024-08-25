@@ -5,7 +5,7 @@
 
 ## Umlauts
 
-Hold the key for a little moment.
+Hold one of the keys [auoAUOs] for a little moment. (See `config.h` the constant `TAPPING_TERM`)
 This functionality requires  to have on Windows the application WinCompose installed.
 It shall be configured to react on right-alt as compose key.
 
@@ -25,21 +25,21 @@ It shall be configured to react on right-alt as compose key.
 
 Engram for the normal letters.
 For the symbols, another ordering is chosen, because the pairs `()` and `<>` are harder to press with shifted keys on different hands.
-The ordering does now have some similarities to QWERTY (grav, tilde, at, percent).
-The keys far away from the right pinky are unused.
+The ordering does now have some similarities to QWERTY (grav, tilde, at, percent are on the original position).
+Those keys that are far away from the right pinky - stay unused.
 
-## Navigation Layer
+## Extend Layer
 
-![image Layer Navigation](L5.png)
+![image Extend Layer](L5.png)
 
 Cursor, Page up/down, tab, esc, bspc, ins, del, caps .. all an the right hand.
-The left hand, while pressing the layer activation, can still press modifiers.
+The left hand, while pressing the layer activation, can still press modifiers. Note the key left of the space bar is now also the windows key, to be more easy to press while the "Extend" key is held.
+E.g. Windows+Arrow to move a window.
 
-The usual undo, cut, copy, paste are here. Instead of Ctrl-X, now you press Ext-X.
+The usual undo, cut, copy, paste are at their original QWERTY positions. Instead of Ctrl-X, now you press Ext-X.
 
-The Function row does now have the upper numbers F13..F24 and they can be bound in applications.
+The Function row does now have the upper half of function keys `F13` .. `F24` and they can be bound in applications.
 
-The left alt on bottom row in now WIN key, so it can be easier pressed with the thumb. E.g. Windows+Arrow to move a window.
 
 ## Number layer
 

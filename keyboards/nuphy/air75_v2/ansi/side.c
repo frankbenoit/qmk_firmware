@@ -299,14 +299,27 @@ void sleep_sw_led_show(void) {
 void sys_led_show(void) {
     if (dev_info.link_mode == LINK_USB) {
         if (host_keyboard_led_state().caps_lock) {
-            set_left_rgb(0X00, 0x80, 0x80);
+            set_right_rgb(0X00, 0x80, 0x80);
         }
     }
 
     else {
         if (dev_info.rf_led & 0x02) {
-            set_left_rgb(0X00, 0x80, 0x80);
+            set_right_rgb(0X00, 0x80, 0x80);
         }
+    }
+    
+    if ( layer_state_is(9) ){ // mouse
+        set_left_rgb(0Xff, 0xff, 0xff);
+    }
+    else if ( layer_state_is(7) ){ // mouse
+        set_left_rgb(0Xff, 0x22, 0x10);
+    }
+    else if ( layer_state_is(6) ){ // num
+        set_left_rgb(0X5f, 0xff, 0x20);
+    }
+    else if ( layer_state_is(5) ){ // extend
+        set_left_rgb(0Xff, 0xff, 0xff);
     }
 }
 

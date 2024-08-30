@@ -138,25 +138,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // layer 0 - Engram
 [L_ENG] = LAYOUT_75_ansi(
-    KC_ESC,     KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     MO(L_EFN),  XXXXXXX,    KC_DEL, 
-    MO(L_MSE),  EGR_1,      EGR_2,      EGR_3,      EGR_4,      EGR_5,      EGR_6,      EGR_7,      EGR_8,      EGR_9,      EGR_0,      XXXXXXX,    XXXXXXX,    /******/    KC_BSPC,    KC_PGUP, 
-    ALT_TAB,    KC_B,       KC_Y,       LT(0, KC_O),LT(0, KC_U),EGR_SQT,    EGR_DQT,    KC_L,       KC_D,       KC_W,       KC_V,       KC_Z,       XXXXXXX,    /******/    C(KC_BSPC), KC_PGDN, 
-    EXTEND,     KC_C,       KC_I,       KC_E,       LT(0, KC_A),EGR_COMMA,  EGR_DOT,    KC_H,       KC_T,       LT(0, KC_S),KC_N,       KC_Q,       /******/    /******/    KC_ENT,     KC_HOME, 
-    KC_LSFT,    KC_G,       KC_X,       KC_J,       KC_K,       KC_MINS,    EGR_QUEST,  KC_R,       KC_M,       KC_F,       KC_P,       /******/    /******/    KC_RSFT,    KC_UP,      KC_END, 
+    KC_ESC,     KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     MO(L_EFN),  XXXXXXX,    KC_DEL,
+    MO(L_MSE),  EGR_1,      EGR_2,      EGR_3,      EGR_4,      EGR_5,      EGR_6,      EGR_7,      EGR_8,      EGR_9,      EGR_0,      XXXXXXX,    XXXXXXX,    /******/    KC_BSPC,    KC_PGUP,
+    ALT_TAB,    KC_B,       KC_Y,       LT(0, KC_O),LT(0, KC_U),EGR_SQT,    EGR_DQT,    KC_L,       KC_D,       KC_W,       KC_V,       KC_Z,       XXXXXXX,    /******/    C(KC_BSPC), KC_PGDN,
+    EXTEND,     KC_C,       KC_I,       KC_E,       LT(0, KC_A),EGR_COMMA,  EGR_DOT,    KC_H,       KC_T,       LT(0, KC_S),KC_N,       KC_Q,       /******/    /******/    KC_ENT,     KC_HOME,
+    KC_LSFT,    KC_G,       KC_X,       KC_J,       KC_K,       KC_MINS,    EGR_QUEST,  KC_R,       KC_M,       KC_F,       KC_P,       /******/    /******/    KC_RSFT,    KC_UP,      KC_END,
     KC_LCTL,    KC_LGUI,    KC_LALT,    /******/    /******/    /******/    KC_SPC,     /******/    /******/    KC_RALT,    KC_LALT,    KC_RCTL,    /******/    KC_LEFT,    KC_DOWN,    KC_RGHT),
 
 // layer 1 - Engram Fn
 [L_EFN] = LAYOUT_75_ansi(
-    _______,    KC_BRID,    KC_BRIU,    _______,    _______,    _______,    _______,    KC_MPRV,    KC_MPLY,    KC_MNXT,    KC_MUTE,    KC_VOLD,    KC_VOLU,    MO(L_EFN),  KC_PSCR,    WIN_MIC, 
-    _______,    LNK_BLE1,   LNK_BLE2,   LNK_BLE3,   LNK_RF,     _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    /******/    KC_BSPC,    _______, 
-    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    DEV_RESET,  SLEEP_MODE, /******/    BAT_SHOW,   _______, 
-    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    /******/    /******/    _______,    _______, 
-    _______,    _______,    _______,    RGB_TEST,   _______,    BAT_NUM,    _______,    MO(4),      RGB_SPD,    RGB_SPI,    _______,    /******/    /******/    _______,    RGB_VAI,    _______, 
+    _______,    KC_BRID,    KC_BRIU,    _______,    _______,    _______,    _______,    KC_MPRV,    KC_MPLY,    KC_MNXT,    KC_MUTE,    KC_VOLD,    KC_VOLU,    MO(L_EFN),  KC_PSCR,    WIN_MIC,
+    _______,    LNK_BLE1,   LNK_BLE2,   LNK_BLE3,   LNK_RF,     _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    /******/    KC_BSPC,    _______,
+    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    DEV_RESET,  SLEEP_MODE, /******/    BAT_SHOW,   _______,
+    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,    /******/    /******/    _______,    _______,
+    _______,    _______,    _______,    RGB_TEST,   _______,    BAT_NUM,    _______,    MO(4),      RGB_SPD,    RGB_SPI,    _______,    /******/    /******/    _______,    RGB_VAI,    _______,
     _______,    _______,    _______,    /******/    /******/    /******/    _______,    /******/    /******/    _______,    _______,    _______,    /******/    RGB_MOD,    RGB_VAD,    RGB_HUI),
 
 // layer 2 - Qwerty
 [L_QWE] = LAYOUT_75_ansi(
-    KC_ESC,     KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     MO(L_QFN),  XXXXXXX,    KC_DEL, 
+    KC_ESC,     KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F12,     MO(L_QFN),  XXXXXXX,    KC_DEL,
     KC_GRV,     KC_1,       KC_2,       KC_3,       KC_4,       KC_5,       KC_6,       KC_7,       KC_8,       KC_9,       KC_0,       KC_MINS,    KC_EQL,     /******/    KC_BSPC,    KC_PGUP,
     KC_TAB,     KC_Q,       KC_W,       KC_E,       KC_R,       KC_T,       KC_Y,       KC_U,       KC_I,       KC_O,       KC_P,       KC_LBRC,    KC_RBRC,    /******/    KC_BSLS,    KC_PGDN,
     KC_CAPS,    KC_A,       KC_S,       KC_D,       KC_F,       KC_G,       KC_H,       KC_J,       KC_K,       KC_L,       KC_SCLN,    KC_QUOT,    /******/    /******/    KC_ENT,     KC_HOME,
@@ -221,7 +221,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #define C_GREEN  {true,    0, 255,   0}
 #define C_ORANGE {true,  255,  95,   0}
 extern rgb_config_t rgb_matrix_config;
-#define LAYOUT_matrix_84(k0A, k0B, k0C, k0D, k0E, k0F, k0G, k0H, k0I, k0J, k0K, k0L, k0M, k0O, k0P, k0Q, k1A, k1B, k1C, k1D, k1E, k1F, k1G, k1H, k1I, k1J, k1K, k1L, k1M, k1N, k1O, k2A, k2B, k2C, k2D, k2E, k2F, k2G, k2H, k2I, k2J, k2K, k2L, k2M, k2N, k2O, k3A, k3B, k3C, k3D, k3E, k3F, k3G, k3H, k3I, k3J, k3K, k3L, k3N, k3O, k4A, k4C, k4D, k4E, k4F, k4G, k4H, k4I, k4J, k4K, k4L, k4N, k4O, k4P, k5A, k5B, k5C, k5G, k5J, k5K, k5N, k5O, k5P, k5Q) { \
+#define LAYOUT_matrix_84(
 	 k0A, k0B, k0C, k0D, k0E, k0F, k0G, k0H, k0I, k0J, k0K, k0L, k0M, k0O, k0P, k0Q, \
 	 k1O, k1N, k1M, k1L, k1K, k1J, k1I, k1H, k1G, k1F, k1E, k1D, k1C, k1B, k1A, \
 	 k2A, k2B, k2C, k2D, k2E, k2F, k2G, k2H, k2I, k2J, k2K, k2L, k2M, k2N, k2O, \
@@ -237,7 +237,7 @@ enum color_layers {
 };
 	 // k1A, k1B, k1C, k1D, k1E, k1F, k1G, k1H, k1I, k1J, k1K, k1L, k1M, k1N, k1P, k1Q,
 const uint8_t PROGMEM ledmap[][RGB_MATRIX_LED_COUNT][4] = {
-[C_ENG] = LAYOUT_matrix_84( 
+[C_ENG] = LAYOUT_matrix_84(
 	C_GREEN,    C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_GREY,     C_GREY,     C_GREY,     C_GREY,     C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_GREY,     C_GREY,     C_GREY,
 	C_BKG,      C_ORANGE,   C_ORANGE,   C_ORANGE,   C_ORANGE,   C_GREY,     C_GREY,     C_ORANGE,   C_ORANGE,   C_ORANGE,   C_ORANGE,   C_BKG,      C_BKG,      /******/    C_BKG,      C_BKG,
 	C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_GREY,     C_GREY,     C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      /******/    C_BKG,      C_BKG,
@@ -245,7 +245,7 @@ const uint8_t PROGMEM ledmap[][RGB_MATRIX_LED_COUNT][4] = {
 	C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_GREY,     C_GREY,     C_BKG,      C_BKG,      C_BKG,      C_BKG,      /******/    /******/    C_BKG,      C_GREY,     C_BKG,
 	C_BKG,      C_BKG,      C_BKG,      /******/    /******/    /******/    C_BKG,      /******/    /******/    C_BKG,      C_BKG,      C_BKG,      /******/    C_GREY,     C_GREY,     C_GREY),
 
-[C_EXT] = LAYOUT_matrix_84( 
+[C_EXT] = LAYOUT_matrix_84(
 	C_GREEN,    C_GREY,     C_GREY,     C_GREY,     C_GREY,     C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_GREY,     C_GREY,     C_GREY,     C_GREY,     C_BKG,      C_BKG,      C_BKG,
 	C_BKG,      C_GREEN,    C_GREEN,    C_GREEN,    C_GREEN,    C_ORANGE,   C_ORANGE,   C_GREEN,    C_GREEN,    C_GREEN,    C_GREEN,    C_BKG,      C_BKG,      /******/    C_RED,      C_BKG,
 	C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_GREY,     C_BKG,      C_BKG,      C_BKG,      C_BKG,      /******/    C_BKG,      C_BKG,
@@ -253,7 +253,7 @@ const uint8_t PROGMEM ledmap[][RGB_MATRIX_LED_COUNT][4] = {
 	C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      C_BKG,      /******/    /******/    C_BKG,      C_BKG,      C_BKG,
 	C_BKG,      C_BKG,      C_BKG,      /******/    /******/    /******/    C_BKG,      /******/    /******/    C_BKG,      C_BKG,      C_BKG,      /******/    C_BKG,      C_BKG,      C_BKG),
 
-[C_NUM] = LAYOUT_matrix_84( 
+[C_NUM] = LAYOUT_matrix_84(
 	C_GREEN,    C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_GREY,     C_GREY,     C_GREY,     C_GREY,     C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,
 	C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      /******/    C_XXX,      C_XXX,
 	C_GREEN,    C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_ORANGE,   C_ORANGE,   C_ORANGE,   C_XXX,      C_XXX,      C_XXX,      /******/    C_XXX,      C_XXX,
@@ -261,7 +261,7 @@ const uint8_t PROGMEM ledmap[][RGB_MATRIX_LED_COUNT][4] = {
 	C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_ORANGE,   C_ORANGE,   C_ORANGE,   C_XXX,      /******/    /******/    C_XXX,      C_XXX,      C_XXX,
 	C_XXX,      C_XXX,      C_XXX,      /******/    /******/    /******/    C_XXX,      /******/    /******/    C_XXX,      C_XXX,      C_XXX,      /******/    C_XXX,      C_XXX,      C_XXX),
 
-[C_MSE] = LAYOUT_matrix_84( 
+[C_MSE] = LAYOUT_matrix_84(
 	C_GREEN,    C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_GREY,     C_GREY,     C_GREY,     C_GREY,     C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,
 	C_RED,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      /******/    C_XXX,      C_XXX,
 	C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      C_RED,      C_XXX,      C_XXX,      C_XXX,      C_XXX,      /******/    C_XXX,      C_XXX,
@@ -370,7 +370,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 #else
     if( keycode == MACRO_0 || keycode == MACRO_1 ) {
 		SEND_STRING("keyboard-macros.inc missing");
-		return false;	
+		return false;
 	}
 #endif
 	return true;
